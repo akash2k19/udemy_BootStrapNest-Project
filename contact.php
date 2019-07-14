@@ -1,4 +1,4 @@
-<?php
+
 
 /*
 THIS FILE USES PHPMAILER INSTEAD OF THE PHP MAIL() FUNCTION
@@ -12,7 +12,7 @@ require './PHPMailer-master/vendor/autoload.php';
 *  CONFIGURE EVERYTHING HERE
 */
 
-// an email address that will be in the From field of the email.
+ an email address that will be in the From field of the email.
 $fromEmail = 'noreply@email.com';
 $fromName = 'No Reply Email';
 

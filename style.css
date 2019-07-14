@@ -180,21 +180,42 @@ img.example-image {
 	margin: 1.5rem 0;
 }
 
-/*============ BOOTSTRAP BREAK POINTS:
+/*--- Contact Form --*/
+.form-group {
+	margin-bottom: 1.3rem;
+}
+.form-control {
+	background: #53595f;
+	border-radius: 0;
+	border: .15rem solid #666b71;
+	color: black!important;
+}
+.form-control:focus {
+	background: #53595f;
+	border: .15rem solid #666b71;
+}
+.form-group input::placeholder,
+.form-group textarea::placeholder {
+	color: #b2b5b8!important;
+}
+input.btn {
+	cursor: pointer;
+}
+hr.socket {
+	width: 100%;
+	border-top: .2rem solid #666b71;
+}
 
-Extra small (xs) devices (portrait phones, less than 576px)
-No media query since this is the default in Bootstrap
+/*============= MEDIA QUERIES =============*/
 
-Small (sm) devices (landscape phones, 576px and up)
-@media (min-width: 576px) { ... }
 
-Medium (md) devices (tablets, 768px and up)
-@media (min-width: 768px) { ... }
+@media (max-width: 768px) {
+	.caption {
+		top: 35%;
+	}
+	.caption h3 {
+		font-size: 1.8rem;
+		padding-bottom: 1.2rem;
+	}
+}
 
-Large (lg) devices (desktops, 992px and up)
-@media (min-width: 992px) { ... }
-
-Extra (xl) large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) { ... }
-
-=============*/
